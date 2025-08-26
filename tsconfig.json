@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"]
+    }
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules"]
+}
